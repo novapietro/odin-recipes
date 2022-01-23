@@ -5,3 +5,58 @@ ul div {
  a img{
      width: 70px;
  }
+ .headcontainer {
+     display: flex;
+     justify-content:space-around;
+ }
+ .headcontainer div h1 {
+     font-size: 60px;
+ }
+ .ricette{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+ .titoli {
+     display: flex;
+     justify-content: space-around;
+     border: 3px solid rgb(174, 216, 255);
+     border-radius: 7px;
+    width: 900px;
+    height: 50px;
+    align-items: center;  
+    background-color: rgb(174, 216, 255);
+ }
+ .titolilogo {
+    display: flex;
+    justify-content: space-around;
+    border: 3px solid rgb(174, 216, 255);
+    border-radius: 7px;
+   width: 900px;
+   height: 250px;
+   align-items: center;  
+}
+.titolilogo img
+{
+    width: 200px;
+}
+.lasagnatop, .pizzatop, .carbonaratop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(174, 216, 255);
+    height: 250px;
+}
+.lasagnatop img{
+    width: 150px;
+}
+.pizzatop img{
+    width: 150px;
+}
+.carbonaratop img{
+    width: 150px;
+}
+.ingredienti, .procedimento, .description {
+    border-bottom: solid 2px black;
+}
